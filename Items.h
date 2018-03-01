@@ -7,10 +7,10 @@ using namespace std;
 class Item{
 	private:
 		string nombre;
-		int HP;
-		int Defensa;
-		int PoderEspecial;
-		int Factor
+		int hp;
+		int defensa;
+		int poderEspecial;
+		int factor;
 
 	public:
 		Item();
@@ -22,13 +22,13 @@ class Item{
 		int getDefensa();
 		void setDefensa(int);
 		int getPoderEspecial();
-		void setPoderEspecial();
+		void setPoderEspecial(int);
 		int getFactor();
-		void setFactor();
+		void setFactor(int);
 
 		~Item();
 
-}
+};
 
 
 #endif
