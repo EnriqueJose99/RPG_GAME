@@ -15,7 +15,7 @@ class Ataque{
 		int getPotencia();
 		void setRecursos(int);
 		int getRecursos();
-		~Ataque();`
+		~Ataque();
 };
 
 #endif

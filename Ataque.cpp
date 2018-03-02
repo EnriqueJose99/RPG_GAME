@@ -12,7 +12,7 @@ Ataque:: Ataque(int potencia, int recursos){
 
 int Ataque:: getPotencia(){
 	return potencia;
-}	
+}
 
 void Ataque:: setPotencia(int potencia){
 	this-> potencia = potencia;

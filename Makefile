@@ -1,13 +1,14 @@
 # build
-main.out: main.o Ataque.o Items.o Personaje.o Brute.o Mago.o Assassin.o Normal.o Especial.o
+main.out: main.o Ataque.o Item.o Personaje.o Brute.o Mago.o Assassin.o Normal.o Especial.o
+	g++ main.o Ataque.o Item.o Personaje.o Brute.o Mago.o Assassin.o Normal.o Especial.o -o main.out
 
 # Ataque
 Ataque.o: Ataque.h Ataque.cpp
 	g++ -c Ataque.cpp
 
-# Items
-Items.o: Items.h Items.cpp
-	g++ -c Items.cpp
+# Item
+Item.o: Item.h Item.cpp
+	g++ -c Item.cpp
 
 # Personaje
 Personaje.o: Personaje.h Personaje.cpp
@@ -34,7 +35,7 @@ Especial.o: Especial.h Ataque.h Especial.cpp
 	g++ -c Especial.cpp
 
 # main
-main.o: main.cpp Ataque.h Items.h Personaje.h Brute.h Mago.h Assassin.h Normal.h Especial.h
+main.o: main.cpp Ataque.h Item.h Personaje.h Brute.h Mago.h Assassin.h Normal.h Especial.h
 	g++ -c main.cpp
 
 # clean

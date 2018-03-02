@@ -8,7 +8,7 @@ class Especial:public Ataque{
 	private:
 	public:
 		Especial();
-		~Especial();	
+		~Especial();
 };
 
 #endif
