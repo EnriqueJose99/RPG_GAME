@@ -1,3 +1,4 @@
+#include "Ataque.h"
 #include <iostream>
 #include <string>
 

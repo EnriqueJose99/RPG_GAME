@@ -27,5 +27,5 @@ void Ataque:: setRecursos(int recursos){
 }
 
 Ataque:: ~Ataque(){
-	std::cout<<"Se llamo al destructor de ataque"<<endl;
+	std::cout<<"Se llamo al destructor de ataque"<<std::endl;
 }

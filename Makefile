@@ -11,7 +11,7 @@ Item.o: Item.h Item.cpp
 	g++ -c Item.cpp
 
 # Personaje
-Personaje.o: Personaje.h Personaje.cpp
+Personaje.o: Personaje.h Ataque.h Personaje.cpp
 	g++ -c Personaje.cpp
 
 # Brute
